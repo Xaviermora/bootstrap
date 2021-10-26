@@ -10,21 +10,28 @@
         <title>Document</title>
 
         <style>
-            #imagen{
-                background-image: url('indice2.jpg');
-                background-size: cover;
+            #contenedor-img{
+                padding: 0;
+            }
+            #contenedor-img img{
+                height: 100%;
+            }
+            .row{
+                margin-top: 3%;
+            }
+            input{
+                margin-top: 2%;
             }
         </style>
     </head>
     <body>
-        <div class="container bg-secondary">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <!--<img id="imagen" src="indice2.jpg" alt="Personas trabajando">-->
-                    <img src="indice2.jpg" class="img-fluid" alt="...">
+                <div class="col-md-6" id="contenedor-img">
+                    <img src="indice2.jpg" class="img-fluid" id="imagen" alt="Personas trabajando">
                 </div>
 
-                <div class="col-md-6 bg-info text-center">
+                <div class="col-md-6 bg-warning text-center">
                     <div class="row">
                         <div class="col-md-12">
                             <img src="logoCet30.png" alt="Logo del CET 30">
@@ -36,12 +43,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6"><input type="text" placeholder="Nombre" /></div>
-                        <div class="col-md-6"><input type="password" placeholder="Contraseña" /></div>
+                        <div class="col-lg-6"><input type="text" placeholder="Nombre" /></div>
+                        <div class="col-lg-6"><input type="password" placeholder="Contraseña" /></div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="submit" value="Ingresar"/> </div>
+                            <input type="submit" value="Ingresar" /> 
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">Si olvidó su clave puede recuperarla desde <a href="#">aquí</a></div>
