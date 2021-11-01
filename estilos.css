@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(14, 13, 13);
+}
+
+#contenedor-img{
+    background-image: url('./indice2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.container{
+    box-shadow: 0px 0px 8px 4px rgb(187, 187, 187);
+}
