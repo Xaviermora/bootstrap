@@ -12,22 +12,17 @@ body{
     height: 100%;
 }
 
-#container-img-ampliada a{
-    color: white;
-}
-
-#container-img-ampliada svg{
-    position: fixed;
-    right: 0;    
-}
-
 #container-img{
     width: fit-content;
     height: fit-content;
 }
 
 .ampliar-img img:hover{
-    border: 1px solid white;
+    cursor: zoom-in;
+}
+
+#container-img-ampliada:hover{
+    cursor: zoom-out;
 }
 
 .form-control:focus{

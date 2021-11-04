@@ -1,14 +1,13 @@
 const img = document.getElementsByClassName('ampliar-img');
 const containerImgAmpliada = document.getElementById('container-img-ampliada');
 const body = document.getElementsByTagName('body');
-const cerrarImgAmpliada = document.getElementById('cerrar-img-ampliada');
-const resultadoImgAmpliada = document.getElementById('img-x');
+const resultadoImgAmpliada = document.getElementById('img-zoom');
 
 for(let i=0; i<img.length; i++){
     img[i].addEventListener('click', ampliarImg);
 }
 
-cerrarImgAmpliada.addEventListener('click', imgAmpliadaCerrar);
+containerImgAmpliada.addEventListener('click', imgAmpliadaCerrar);
 
 function ampliarImg(e){
     resultadoImgAmpliada.src = e.path[0].src;
