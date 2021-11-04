@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
 
 body{
     background-color: rgb(27, 26, 26);
@@ -16,16 +16,21 @@ body{
     position:fixed;
 }
 
-.ampliar-img img:hover{
-    cursor: zoom-in;
-}
-
 #container-img-ampliada:hover{
     cursor: zoom-out;
 }
 
+.ampliar-img img:hover{
+    cursor: zoom-in;
+}
+
 .form-control:focus{
     box-shadow: 0px 0px 2px 3px rgb(25, 135, 84);
+}
+
+#titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 @media (max-width: 767px){
