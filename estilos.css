@@ -1,7 +1,3 @@
-body{
-    background-color: rgb(14, 13, 13);
-}
-
 #contenedor-img{
     background-image: url('./indice2.jpg');
     background-size: cover;
@@ -10,5 +6,5 @@ body{
 }
 
 .container{
-    box-shadow: 0px 0px 8px 4px rgb(187, 187, 187);
+    box-shadow: 0px 0px 8px 4px rgb(163, 163, 163);
 }
