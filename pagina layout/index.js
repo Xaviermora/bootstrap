@@ -16,7 +16,7 @@ function ampliarImg(e){
     containerImgAmpliada.classList.add('d-flex');
     body[0].style.overflowY = "hidden";
     navbar[0].classList.add('d-none');
-    event.preventDefault();
+    e.preventDefault();
 }
 
 function imgAmpliadaCerrar(){
